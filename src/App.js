@@ -1,20 +1,13 @@
+// normalize.css 不带反斜杠，优先从src取，否则从node_modules
+import 'normalize.css';
+import './style.scss';
+// import styles from './style.module.scss';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        哈哈哈
-        
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> */}
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        low code
       </header>
     </div>
   );
